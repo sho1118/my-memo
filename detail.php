@@ -20,6 +20,12 @@ $row = $stmt->fetch();
   <?php else: ?>
     <p>記録が見つかりませんでした。</p>
   <?php endif; ?>
+  <?php if ($row): ?>
+  <form action="delete.php" method="post" onsubmit="return confirm('この記録を削除しますか？');">
+    <input type="hidden" name="id" value="<?= (int)$row['id'] ?>">
+    <button type="submit">削除</button>
+  </form>
+<?php endif; ?>
   <p><a href="list.php">一覧に戻る</a></p>
 </body>
 </html>
