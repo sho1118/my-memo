@@ -1,11 +1,5 @@
 <?php
-$pdo = new PDO(
-  'mysql:host=localhost;dbname=keepsake;charset=utf8mb4',
-  'root',
-  '',
-  [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
-);
-
+require 'db.php';
 $stmt = $pdo->query('SELECT * FROM records ORDER BY created_at DESC');
 ?>
 <!DOCTYPE html>
@@ -16,6 +10,7 @@ $stmt = $pdo->query('SELECT * FROM records ORDER BY created_at DESC');
 </head>
 <body>
   <h1>Keepsake</h1>
+  <p><a href="form.php">記録する</a></p>
   <?php foreach ($stmt as $row): ?>
     <h2><?= htmlspecialchars($row['title']) ?></h2>
     <p><?= htmlspecialchars($row['note']) ?></p>
