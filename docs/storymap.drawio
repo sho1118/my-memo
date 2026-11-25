@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="hpa7zz48bGFefxrH_qiG" name="ページ-1">
-        <mxGraphModel dx="889" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="518" dy="220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -40,10 +40,10 @@
                 <mxCell id="7-xiu4YIm_A_u68elGzP-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="読み返して思い出す" vertex="1">
                     <mxGeometry height="50" width="100" x="678" y="230" as="geometry"/>
                 </mxCell>
-                <mxCell id="7-xiu4YIm_A_u68elGzP-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="タイトルと感想を入力して保存する" vertex="1">
+                <mxCell id="7-xiu4YIm_A_u68elGzP-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="✅タイトルと感想を入力して保存する" vertex="1">
                     <mxGeometry height="50" width="100" x="190" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="7-xiu4YIm_A_u68elGzP-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="種類、日付、評価を入力できる" vertex="1">
+                <mxCell id="7-xiu4YIm_A_u68elGzP-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="✅種類、日付、評価を入力できる" vertex="1">
                     <mxGeometry height="50" width="100" x="190" y="375" as="geometry"/>
                 </mxCell>
                 <mxCell id="7-xiu4YIm_A_u68elGzP-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="写真を添付できる" vertex="1">
@@ -55,19 +55,19 @@
                 <mxCell id="7-xiu4YIm_A_u68elGzP-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="旅行先と作品(映画やアニメなど)を紐づけられる" vertex="1">
                     <mxGeometry height="50" width="100" x="314" y="450" as="geometry"/>
                 </mxCell>
-                <mxCell id="7-xiu4YIm_A_u68elGzP-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="一覧ページを開く" vertex="1">
+                <mxCell id="7-xiu4YIm_A_u68elGzP-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="✅一覧ページを開く" vertex="1">
                     <mxGeometry height="50" width="100" x="438" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="7-xiu4YIm_A_u68elGzP-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="記録を選んで詳細を見る" vertex="1">
+                <mxCell id="7-xiu4YIm_A_u68elGzP-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="✅記録を選んで詳細を見る" vertex="1">
                     <mxGeometry height="50" width="100" x="678" y="310" as="geometry"/>
                 </mxCell>
-                <mxCell id="7-xiu4YIm_A_u68elGzP-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="新しい順、種類別に表示できる" vertex="1">
+                <mxCell id="7-xiu4YIm_A_u68elGzP-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="☐新しい順、種類別に表示できる" vertex="1">
                     <mxGeometry height="50" width="100" x="438" y="375" as="geometry"/>
                 </mxCell>
                 <mxCell id="7-xiu4YIm_A_u68elGzP-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="カレンダーや地図で表示できる" vertex="1">
                     <mxGeometry height="50" width="100" x="438" y="450" as="geometry"/>
                 </mxCell>
-                <mxCell id="7-xiu4YIm_A_u68elGzP-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="キーワードで検索できる" vertex="1">
+                <mxCell id="7-xiu4YIm_A_u68elGzP-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="☐キーワードで検索できる" vertex="1">
                     <mxGeometry height="50" width="100" x="558" y="375" as="geometry"/>
                 </mxCell>
                 <mxCell id="7-xiu4YIm_A_u68elGzP-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="タグで絞り込める" vertex="1">
