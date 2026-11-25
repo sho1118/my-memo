@@ -20,6 +20,26 @@ $row = $stmt->fetch();
       <p>タイトル<br>
         <input type="text" name="title" value="<?= htmlspecialchars($row['title']) ?>" required>
       </p>
+      <p>種類<br>
+        <select name="category">
+          <?php foreach ($categories as $c): ?>
+            <option value="<?= htmlspecialchars($c) ?>" <?= $row['category'] === $c ? 'selected' : '' ?>>
+              <?= htmlspecialchars($c) ?>
+            </option>
+          <?php endforeach; ?>
+        </select>
+      </p>
+      <p>体験した日<br>
+        <input type="date" name="experienced_on" value="<?= htmlspecialchars($row['experienced_on'] ?? '') ?>">
+      </p>
+      <p>評価<br>
+        <select name="rating">
+          <option value="">未評価</option>
+          <?php for ($i = 5; $i >= 1; $i--): ?>
+            <option value="<?= $i ?>" <?= (int)$row['rating'] === $i ? 'selected' : '' ?>><?= str_repeat('★', $i) ?></option>
+          <?php endfor; ?>
+        </select>
+      </p>
       <p>感想<br>
         <textarea name="note" rows="6" cols="40" required><?= htmlspecialchars($row['note']) ?></textarea>
       </p>

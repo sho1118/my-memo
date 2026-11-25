@@ -15,6 +15,11 @@ $row = $stmt->fetch();
 <body>
   <?php if ($row): ?>
     <h1><?= htmlspecialchars($row['title']) ?></h1>
+    <p>
+      <?= htmlspecialchars($row['category']) ?>
+      <?= $row['experienced_on'] ? '｜' . htmlspecialchars($row['experienced_on']) : '' ?>
+      <?= $row['rating'] ? '｜' . str_repeat('★', (int)$row['rating']) . str_repeat('☆', 5 - (int)$row['rating']) : '' ?>
+    </p>
     <p><?= nl2br(htmlspecialchars($row['note'])) ?></p>
     <p><small>記録した日時：<?= htmlspecialchars($row['created_at']) ?></small></p>
   <?php else: ?>
@@ -28,5 +33,6 @@ $row = $stmt->fetch();
   </form>
 <?php endif; ?>
   <p><a href="list.php">一覧に戻る</a></p>
+
 </body>
 </html>

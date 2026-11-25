@@ -5,3 +5,4 @@ $pdo = new PDO(
   '',
   [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
 );
+$categories = ['映画', '本', '展覧会', '旅行', 'その他'];
